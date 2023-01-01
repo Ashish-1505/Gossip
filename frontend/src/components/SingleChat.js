@@ -12,8 +12,8 @@ import "./styles.css"
 import io from "socket.io-client";
 import Lottie from "react-lottie";
 import animationData from "../animations/typing.json"
-const ENDPOINT="https://gossip-admin.herokuapp.com/";
-
+const ENDPOINT="https://gossip-chat-4j2t.onrender.com";
+// https://chat-app-three-gamma.vercel.app/
 var socket,selectedChatCompare;
 
 const SingleChat = ({fetchAgain,setFetchAgain}) => {
