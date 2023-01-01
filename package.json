@@ -7,7 +7,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build":"cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "build":"cd backend && npm --force install && cd ../frontend && npm --force install && npm run build",
     "start": "node backend/server.js"
   },
   "author": "Ashish",
